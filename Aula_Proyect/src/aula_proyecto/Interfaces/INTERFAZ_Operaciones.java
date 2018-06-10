@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula_proyecto.Aula_Estructura;
+package aula_proyecto.Interfaces;
 
 /**
  *
  * @author dexxtronex
  */
-public interface INTERFAZ_Resarvar {
+public interface INTERFAZ_Operaciones {
     
 }

@@ -11,11 +11,23 @@ package aula_proyect;
  */
 public class Aula_Proyect {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        int validacion_opcion_Correcta = 0;
+        int validación_do_while_Principal = 0;
+        
+        int validación_do_while_PorOpcion = 0;
+
+    
+        do{
+            System.out.println("1) Reservar");
+            
+            
+        }while(validación_do_while_Principal != 0);
+
+
+
+        
     }
     
 }

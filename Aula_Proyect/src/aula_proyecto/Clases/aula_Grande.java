@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula_proyecto.Aula_Estructura;
+package aula_proyecto.Clases;
+
+import aula_proyecto.Abstracto.Aula;
 
 /**
  *
  * @author dexxtronex
  */
-public class aula_Laboratorio extends Aula{
+public class aula_Grande  extends Aula{
     
 }
