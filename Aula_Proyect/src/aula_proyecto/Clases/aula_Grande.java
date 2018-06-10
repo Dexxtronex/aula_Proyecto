@@ -12,5 +12,5 @@ import aula_proyecto.Abstracto.Aula;
  * @author dexxtronex
  */
 public class aula_Grande  extends Aula{
-    private  int aula;
+    
 }
