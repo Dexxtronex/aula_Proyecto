@@ -6,14 +6,17 @@
 package aula_proyecto.Abstracto;
 
 import aula_proyecto.Interfaces.INTERFAZ_Horario;
+import aula_proyecto.Interfaces.INTERFAZ_OperacionesReservaciones;
 import aula_proyecto.Interfaces.INTERFAZ_Resarvar;
-import aula_proyecto.Interfaces.INTERFAZ_Operaciones;
+import aula_proyecto.Interfaces.INTERFAZ_OperacionesSalas;
 
 /**
  *
  * @author dexxtronex
  */
-public abstract class Aula implements INTERFAZ_Horario,INTERFAZ_Operaciones,INTERFAZ_Resarvar{
+public abstract class Aula extends Reservaciones implements INTERFAZ_Horario,INTERFAZ_OperacionesSalas
+        ,INTERFAZ_Resarvar
+{
     
     
     
