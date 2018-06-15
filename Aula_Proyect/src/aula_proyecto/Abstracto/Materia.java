@@ -12,4 +12,5 @@ package aula_proyecto.Abstracto;
  */
 public interface Materia {
     
+    
 }
