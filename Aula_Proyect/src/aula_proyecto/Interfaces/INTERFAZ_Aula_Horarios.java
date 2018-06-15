@@ -9,6 +9,6 @@ package aula_proyecto.Interfaces;
  *
  * @author dexxtronex
  */
-public interface INTERFAZ_Horario {
+public interface INTERFAZ_Aula_Horarios {
     
 }
