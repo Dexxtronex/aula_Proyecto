@@ -10,5 +10,10 @@ package aula_proyecto.Interfaces;
  * @author dexxtronex
  */
 public interface INTERFAZ_Aula_Horarios {
-    
+       
+        void RegistraHora_Disponible(String []dias,int horaDisponible_inicio,int horaDisponible_fin);
+        
+        void MostrarDisponibilidad();
+        
+        void ModificarDisponibilidad();
 }
