@@ -12,15 +12,21 @@ import aula_proyecto.Abstracto.Reservaciones;
  *
  * @author TOSHIBA
  */
-public abstract class Persona extends Reservaciones{
+public abstract class Persona {
+    private int codigo;
+    private String nombre;
+    private String cedula;
     public Persona(){
         
     }
     
-    public Persona(int codigo, String nombre, int horarioduso,String materia,int fchinicio,
-         int fchfinaliz,int diasduso,String nombmateria){
-        super( codigo,  nombre,  horarioduso, materia, fchinicio,
-          fchfinaliz, diasduso ,nombmateria);
-    
+    public Persona(int codigo, String nombre,String cedula){
+        this.codigo=codigo;
+        this.nombre=nombre;
+        this.cedula=cedula;
+            
 }
+    public String toString(){
+        return "Codigo: "+this.codigo +"Nombre: "+this.nombre +"Cedula: "+this.cedula;
+    }
 }

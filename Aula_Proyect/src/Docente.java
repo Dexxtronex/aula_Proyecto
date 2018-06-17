@@ -10,12 +10,13 @@
  * @author TOSHIBA
  */
 public class Docente extends Persona {
-
-    @Override
-    public void registarReservacion() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
-   
+    private String especializacion;
+public Docente (){}
+public Docente (int codigo, String nombre,String cedula){
+    super(codigo,nombre,cedula);
+    this.especializacion=especializacion;
+}
+   public String toString(){
+       return "Especializacion: "+this.especializacion;
+   }
 }
