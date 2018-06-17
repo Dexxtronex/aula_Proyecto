@@ -11,5 +11,6 @@ package aula_proyecto.Interfaces;
  */
 public interface INTERFAZ_OperacionesReservaciones {
     
-    
+     void registarReservacion();
+    void busquedaReservacion();
 }

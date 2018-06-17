@@ -10,5 +10,6 @@ package aula_proyecto.Interfaces;
  * @author dexxtronex
  */
 public interface INTERFAZ_Reserva_Horario {
-    
+        void registrarTiempodeUso();
+
 }

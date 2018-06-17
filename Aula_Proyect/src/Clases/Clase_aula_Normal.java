@@ -100,5 +100,10 @@ public class Clase_aula_Normal extends Aula {
     public void ModificarDisponibilidad() {
     }
 
+    @Override
+    public void registarReservacion() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
    
 }
