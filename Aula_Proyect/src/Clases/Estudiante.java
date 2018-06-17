@@ -1,4 +1,7 @@
+package Clases;
 
+
+import aula_proyecto.Abstracto.Persona;
 import aula_proyecto.Abstracto.Materia;
 import java.util.ArrayList;
 

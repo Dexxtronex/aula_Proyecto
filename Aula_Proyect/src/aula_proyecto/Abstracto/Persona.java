@@ -1,3 +1,5 @@
+package aula_proyecto.Abstracto;
+
 
 import aula_proyecto.Abstracto.Reservaciones;
 
