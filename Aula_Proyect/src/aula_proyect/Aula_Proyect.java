@@ -37,7 +37,7 @@ public static boolean isNumeric(String cadena) {
         Aula obj_aula = null ;
         int validación_do_while_Principal   = 1; // identificador para finalizar bucle general (menu general) 
         int validacion_Menu_1;                   // validaciones para menu
-        String op;                                  // string que obtendrá las respuestas de cada menú
+        String op ;                                  // string que obtendrá las respuestas de cada menú
         do{                                         // do del bucle general 
             do{                                     // do del primer menu (menu general ) 
                 
@@ -135,9 +135,29 @@ public static boolean isNumeric(String cadena) {
                         break;
                 }
                 
-                 System.out.println(""+obj_aula.toString());    // muestro si se a creado la clase o no teniendo en consideración que el to string mostrará el nombre de la clase
+                
+             String Numeracion_aula  = JOptionPane.showInputDialog(null,"Digite el Codigo del curso a registrar");
+                
+     int Capacidad_alumnos  = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite capacidad Alumnos"));
+     int Cantidad_Pizarras  = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite cantidad Pizarras"));
+     int numeros_pupitres   = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite cantidad Pupitres"));
+     String tipo_ventilacion = (JOptionPane.showInputDialog(null,"Digite Tipo Ventilador (Normales,Autonomas, etc"));
+     int cantidad_ventilacion = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite cantidad Ventiladores"));
+                
+                obj_aula.setNumeracion_aula(Numeracion_aula);
+                obj_aula.setCapacidad_alumnos(Capacidad_alumnos);
+                obj_aula.setCantidad_Pizarras(Cantidad_Pizarras);
+                obj_aula.setNumeros_pupitres(numeros_pupitres);
+                obj_aula.setTipo_ventilacion(tipo_ventilacion);
+                obj_aula.setCantidad_ventilacion(cantidad_ventilacion);
+                
+                 JOptionPane.showMessageDialog(null,"Se a creado el Aula: "+obj_aula.toString()+"\n"+obj_aula.getClass().getName());
+                  // muestro si se a creado la clase o no teniendo en consideración que el to string mostrará el nombre de la clase
                  validacion_Menu_1 = 0;
-
+                 
+                 
+                 
+                 
             }
             else{
                 JOptionPane.showMessageDialog(null,"Digite digitos validos entre rango de 0 a 4");
@@ -159,14 +179,15 @@ public static boolean isNumeric(String cadena) {
                 }
              }
         
-            }while(validacion_Menu_1 != 0);
+            }while(validacion_Menu_1 != 0); // fin del menú 2 Creación de Aula
                 
                 
                 
                 
                 
-            }
+            } // fin de la opcion 1 
             
+                
             
             }while(validación_do_while_Principal != 0);
 

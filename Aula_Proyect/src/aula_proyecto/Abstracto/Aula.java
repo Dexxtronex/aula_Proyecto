@@ -87,7 +87,7 @@ public abstract class Aula extends Reservaciones implements INTERFAZ_Operaciones
         this.cantidad_ventilacion = cantidad_ventilacion;
     }
     
-    /*
+    
     @Override
     public String toString() {
        
@@ -99,14 +99,14 @@ public abstract class Aula extends Reservaciones implements INTERFAZ_Operaciones
                 +"\nCANTIDAD"+this.getCantidad_ventilacion();
 
 }
-*/
 
+/*
     @Override
     public String toString() {
         return this.getClass().getName();
     }
 
-   
+  */ 
     
     
     
