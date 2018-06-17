@@ -52,7 +52,7 @@ public static boolean isNumeric(String cadena) {
             
 
             if (isNumeric(op) == true) {        // metodo statico que devuelve verdadero si es un numero
-                                                // sirve para hacer una validación de que si digita algó erroneo salga un mensaje e.é
+                                                // sirve para hacer una validación de que si digita algó erroneo salga un mensaje
 
                  
                  
