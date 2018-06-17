@@ -134,7 +134,7 @@ public static boolean isNumeric(String cadena) {
                     default:
                         break;
                 }
-                
+                // No se han tomado en consideración desde aquí validaciones 
                 
              String Numeracion_aula  = JOptionPane.showInputDialog(null,"Digite el Codigo del curso a registrar");
                 
