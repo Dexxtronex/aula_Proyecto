@@ -87,15 +87,23 @@ public abstract class Aula extends Reservaciones implements INTERFAZ_Operaciones
         this.cantidad_ventilacion = cantidad_ventilacion;
     }
     
-    
+    /*
     @Override
     public String toString() {
+       
         return "\nNUMERACION DEL AULA: "+this.getNumeracion_aula()
                 +"\nCAPACIDAD SE ALUMNOS: "+this.getCapacidad_alumnos()
                 +"\nNUMEROS DE PIZARRONES: "+this.getCantidad_Pizarras()
                 +"\nNUMEROS DE PUPITRES: "+this.getNumeros_pupitres()
                 +"\nTIPO DE VENTILACIÓN: "+this.getTipo_ventilacion()
                 +"\nCANTIDAD"+this.getCantidad_ventilacion();
+
+}
+*/
+
+    @Override
+    public String toString() {
+        return this.getClass().getName();
     }
 
    
